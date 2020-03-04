@@ -11,7 +11,7 @@ import com.thayalantech.appsamp.entity.Employee;
 @Component
 public class EmployeeServiceImpl implements EmployeeService{
 	@Resource 
-	EmployeeDao employeeDao;
+	EmployeeDAO employeeDao;
 	@Override
 	public List<Employee> findAll() {
 		return employeeDao.findAll();
